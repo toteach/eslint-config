@@ -1,7 +1,7 @@
 {
   "author": "toteach.io",
   "name": "@toteach/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Eslint config with best practices. Selected better config rules combinations for eslint linter.",
   "main": "index.js",
   "license": "MIT",

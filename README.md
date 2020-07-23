@@ -12,7 +12,7 @@
 
 First, what you need is to install npm package.
 ```bash
-npm install --save-dev @toteach-io/eslint-config-toteach-io
+npm install --save-dev @toteach/eslint-config
 ```
 
 Next, install all peer dependencies. The easiest way is to add this lines to your `devDependensies`
@@ -35,7 +35,7 @@ After previous operations add this to your eslint configuration.
 ```json
 {
   "extends": [
-    "@toteach-io/eslint-config-toteach-io"
+    "@toteach/eslint-config"
   ],
   "parserOptions": {
     "project": "./tsconfig.json",
@@ -56,7 +56,7 @@ After previous operations add this to your eslint configuration.
     "extraFileExtensions": [".vue"]
   },
   "extends": [
-    "@toteach-io/eslint-config-toteach-io"
+    "@toteach/eslint-config"
   ]
 }
 ```
@@ -77,7 +77,7 @@ After previous operations add this to your eslint configuration.
 Usage:
 ```json
 {
-  "extends": ["@toteach-io/eslint-config-toteach-io"]
+  "extends": ["@toteach/eslint-config"]
 }
 ```
 
@@ -90,7 +90,7 @@ Usage:
 Usage:
 ```json
 {
-  "extends": ["@toteach-io/eslint-config-toteach-io/vue-javascript"]
+  "extends": ["@toteach/eslint-config/vue-javascript"]
 }
 ```
 
@@ -98,7 +98,7 @@ Usage:
 Usage:
 ```json
 {
-  "extends": ["@toteach-io/eslint-config-toteach-io/vue-html"]
+  "extends": ["@toteach/eslint-config/vue-html"]
 }
 ```
 
@@ -106,7 +106,7 @@ Usage:
 Usage:
 ```json
 {
-  "extends": ["@toteach-io/eslint-config-toteach-io/typescript"]
+  "extends": ["@toteach/eslint-config/typescript"]
 }
 ```
 
@@ -114,7 +114,7 @@ Usage:
 Usage:
 ```json
 {
-  "extends": ["@toteach-io/eslint-config-toteach-io/javascript"]
+  "extends": ["@toteach/eslint-config/javascript"]
 }
 ```
 
