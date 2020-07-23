@@ -1,0 +1,66 @@
+{
+  "author": "toteach.io",
+  "name": "@toteach/eslint-config-toteach-io",
+  "version": "0.0.1",
+  "description": "Eslint config with best practices. Selected better config rules combinations for eslint linter.",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "style",
+    "style checker",
+    "style linter",
+    "verify",
+    "eslint rules",
+    "toteach"
+  ],
+  "bugs": {
+    "url": "https://github.com/toteach/eslint-config/issues"
+  },
+  "homepage": "https://github.com/toteach/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toteach/eslint-config.git"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-simple-import-sort": "^4.0.0",
+    "eslint-plugin-vue": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "vue-eslint-parser": "^7.0.0",
+    "typescript": "^3.6.4",
+    "babel-eslint": "^10.0.3"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6.6.0",
+    "eslint-plugin-import": ">=2.18.2",
+    "eslint-plugin-simple-import-sort": ">=4.0.0",
+    "eslint-plugin-vue": ">=6.0.0",
+    "@typescript-eslint/eslint-plugin": ">=2.6.1",
+    "@typescript-eslint/parser": ">=2.6.1",
+    "@vue/eslint-config-typescript": ">=4.0.0",
+    "vue-eslint-parser": ">=7.0.0",
+    "typescript": ">=3.6.4",
+    "babel-eslint": ">=10.0.3"
+  },
+  "dependencies": {},
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+}
